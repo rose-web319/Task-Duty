@@ -19,10 +19,10 @@ export default function AppRoutes() {
           path: "auth/newtask",
           element: <Newtask />,
         },
-        {
-          path: "auth/alltask",
-          element: <Alltask />,
-        },
+      {
+        path:"auth/alltask",
+        element:<Alltask/>,
+      },
         {
           path: "auth/gotomytask",
           element: <Gotomytask/>,
