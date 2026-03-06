@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Newtask() {
   return (
-    <div className="max-w-[1100px] mx-auto w-full">
+    <div className="max-w-[1100px] mx-auto w-full px-3">
       <div className="flex items-center gap-1 my-5 ">
         <img
           src="/69036dac6c6467000c309eaf (1).png"

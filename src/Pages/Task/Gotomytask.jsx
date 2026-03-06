@@ -17,7 +17,7 @@ export default function Mytask() {
             <h1 className="text-red-300 mb-2 text-xl">Urgent</h1>
             <Link to="/auth/alltask" className="flex items-center gap-4">
               <div className="flex gap-2 bg-purple-500 px-2 py-1 rounded-sm text-white">
-                <img src="/clarity_note-edit-line (1) - Copy.png" alt="" />
+                <img src="/clarity_note-edit-line.png" alt="" />
                 <buton>Edit</buton>
               </div>
               <div className="flex gap-2 border border-purple-500 px-2 py-1 rounded-sm text-purple-500">
@@ -44,7 +44,7 @@ export default function Mytask() {
             <h1 className="text-green-300 mb-2 mt-1 text-xl">Important</h1>
             <Link to="/auth/alltask" className="flex items-center gap-4">
               <div className="flex gap-2 bg-purple-500 px-2 py-1 rounded-sm text-white">
-                <img src="/clarity_note-edit-line (1) - Copy.png" alt="" />
+                <img src="/clarity_note-edit-line.png" alt="" />
                 <buton>Edit</buton>
               </div>
               <div className="flex gap-2 border border-purple-500 px-2 py-1 rounded-sm text-purple-500">
@@ -71,7 +71,7 @@ export default function Mytask() {
             {/* edit and delete icons section start from here  */}
             <Link to="/auth/alltask" className="flex items-center gap-4">
               <div className="flex gap-2 bg-purple-500 px-2 py-1 rounded-sm text-white">
-                <img src="/clarity_note-edit-line (1) - Copy.png" alt="" />
+                <img src="/clarity_note-edit-line.png" alt="" />
                 <buton>Edit</buton>
               </div>
               <div className="flex gap-2 border border-purple-500 px-2 py-1 rounded-sm text-purple-500">
@@ -97,7 +97,7 @@ export default function Mytask() {
             <h1 className="text-green-300 mb-2 mt-1 text-xl">Important</h1>
             <Link to="/auth/alltask" className="flex items-center gap-4">
               <div className="flex gap-2 bg-purple-500 px-2 py-1 rounded-sm text-white">
-                <img src="/clarity_note-edit-line (1) - Copy.png" alt="" />
+                <img src="/clarity_note-edit-line.png" alt="" />
                 <buton>Edit</buton>
               </div>
               <div className="flex gap-2 border border-purple-500 px-2 py-1 rounded-sm text-purple-500">

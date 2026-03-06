@@ -35,11 +35,11 @@ export default function Nav() {
               {item.name}
             </NavLink>
           ))}
-          <img src="./profile.png" alt="" />
+          <img src="./Group 7 (1).png" alt="" />
         </div>
         <div className="block sm:hidden">
           <div className="flex items-center gap-3">
-            <img src="./profile.png" alt="" />
+            <img src="./Group 7 (1).png" alt="" />
             <Drawer />
           </div>
         </div>
