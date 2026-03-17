@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router";
-import { validateLoginUserSchema } from "../../utils/dataSchema";
+
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
@@ -8,7 +8,7 @@ import { Loader, Eye, EyeClosed } from "lucide-react";
 import { useState } from "react";
 import { loginUser } from "../../api/auth";
 import { useAuth } from "../../hooks/useAuth";
-
+import { validateLoginUserSchema } from "../../utils/dataSchema";
 export default function Login() {
   const {setAccessToken} = useAuth();
   const [revealPassword, setRevealPassword] = useState(false);
@@ -44,7 +44,7 @@ export default function Login() {
     mutation.mutate(data);
   };
   return (
-    <div className="flex items-center justify-center px-4">
+    <div className="flex items-center justify-center px-5">
       <div className="w-full max-w-md p-2 lg:p-8">
         <NavLink to="/" className="flex items-center justify-center w-full">
           <img

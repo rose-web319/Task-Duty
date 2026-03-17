@@ -1,5 +1,5 @@
 import { Link, NavLink, useNavigate } from "react-router";
-import { validateRegisterUserSchema } from "../../utils/dataSchema";
+
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { useMutation } from "@tanstack/react-query";
@@ -7,6 +7,7 @@ import { toast } from "react-toastify";
 import { Loader, Eye, EyeClosed } from "lucide-react";
 import { useState } from "react";
 import { registerUser } from "../../api/auth";
+import { validateRegisterUserSchema } from "../../utils/dataSchema";
 
 export default function Register() {
   const [revealPassword, setRevealPassword] = useState(false);
