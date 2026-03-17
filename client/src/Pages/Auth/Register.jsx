@@ -44,7 +44,7 @@ export default function Register() {
   };
   return (
     <div className="flex items-center justify-center px-4">
-      <div className="w-full max-w-md p-2 lg:p-7">
+      <div className="w-full max-w-md p-2 lg:p-8">
         <NavLink to="/" className="flex items-center justify-center w-full">
           <img
             src="https://task-duty-proj-client.vercel.app/assets/logo-cQYmEuE8.svg"
