@@ -105,7 +105,7 @@ export default function Login() {
           </button>
         </form>
 
-        <p className="text-center text-sm mt-6">
+        <p className="text-center text-sm mt-5">
           Don't have an account?{" "}
           <Link
             to="/auth/register"
