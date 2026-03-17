@@ -18,7 +18,7 @@ export default function Home() {
             <div className="flex justify-center lg:justify-start items-center lg:items-start w-full pt-4">
               <Link
                 to="/auth/gotomytask"
-                className="inline-block bg-purple-600 hover:bg-purple-700 transition-colors text-white font-semibold rounded-lg px-4 md:px-8 py-2 md:py-3 shadow-lg shadow-purple-200"
+                className="inline-block bg-purple-600 hover:bg-purple-700 transition-colors text-white font-semibold rounded-lg px-4 md:px-7 py-2 md:py-3 shadow-lg shadow-purple-200"
               >
                 Go to my Tasks
               </Link>
