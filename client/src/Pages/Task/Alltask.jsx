@@ -35,7 +35,7 @@ export default function AllTask() {
             name=""
             id=""
             placeholder="Briefly describe your task..."
-            defaultValue="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem beatae odio reiciendis quas sunt neque quod ad, molestias ipsam soluta? Temporibus ut atque fuga exercitationem blanditiis rerum dolorem sint nulla?"
+            defaultValue="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem beatae odio reiciendis quas sunt neque quod ad, molestias ipsam soluta? Temporibus ut atque fuga exercitationem blanditiis rerum dolorem sint nulla??"
             className="border border-gray-200 outline-none resize-none w-full pl-8 p-5"
             rows={5}
           ></textarea>
