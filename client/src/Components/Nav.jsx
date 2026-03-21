@@ -48,7 +48,7 @@ export default function Nav() {
             >
               <span>Logout</span>
             </button>
-            <img src="./Group 7 (1).png" alt="Profile" />
+            <img src="./profile.png" alt="Profile" />
           </div>
         ) : (
           <div className="hidden sm:flex items-center space-x-6 text-xl font-semibold">

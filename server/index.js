@@ -11,6 +11,7 @@ import {
 } from "./src/middleware/errorHandler.js";
 import { rateLimiter } from "./src/middleware/rateLimit.js";
 import userRoutes from "./src/routes/user.routes.js";
+import taskRoutes from "./src/routes/task.routes.js"
 
 
 dotenv.config()
@@ -52,6 +53,7 @@ app.get("/", (req, res) => {
 
 // assemble api routes
 app.use("/api/v1/user", userRoutes);
+app.use("/api/v1/task", taskRoutes);
 
 app.use((req, res, next) => {
   return next(catchNotFoundRoute(req, res));

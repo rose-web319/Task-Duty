@@ -1,4 +1,4 @@
-import axiosClient from "../utils/axioSClient";
+import axiosClient from "../utils/axiosClient";
 
 export const registerUser = async (FormData) => {
   return await axiosClient.post("/user/create", FormData);

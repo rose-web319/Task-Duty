@@ -60,7 +60,7 @@ export default function Drawer({ handleLogout }) {
                     <Link to="auth/newtask" onClick={() => setIsOpen(false)}>
                       New Task
                     </Link>
-                    <Link to="auth/mytask" onClick={() => setIsOpen(false)}>
+                    <Link to="auth/gotomytask" onClick={() => setIsOpen(false)}>
                       All Task
                     </Link>
                   </div>
